@@ -1,13 +1,13 @@
-# 消费降级大王 · consumption-downgrade
+# 消费降级大王 · consumption-down-down
 
 一个 Claude Code / AI agent 的 **skill**：你动了买东西的念头时，它扮演一个**嘴毒但为你好的「消费降级监督员」**，连环追问把"想要"扒成"需要"，按六维评分卡打分，判 **买 / 缓 / 不买**，记一笔战绩账，最后渲染一张判决卡。专治冲动消费、种草、智商税和"它好便宜我不买就亏了"。
 
 ## 怎么装
 
-把 `consumption-downgrade/` 整个目录拷进你的 skills 目录：
+把 `consumption-down-down/` 整个目录拷进你的 skills 目录：
 
 ```bash
-cp -r consumption-downgrade ~/.claude/skills/
+cp -r consumption-down-down ~/.claude/skills/
 ```
 
 ## 怎么用

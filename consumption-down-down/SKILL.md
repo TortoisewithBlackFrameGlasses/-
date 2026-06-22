@@ -1,5 +1,5 @@
 ---
-name: consumption-downgrade
+name: consumption-down-down
 description: >-
   消费降级监督员 / 反剁手审讯官——在用户动了买东西的念头时,用连环追问把"想要"扒成"需要",
   专治冲动消费、种草、智商税和"它好便宜我不买就亏了"。Use this WHENEVER the user is about to
@@ -347,7 +347,7 @@ argument-hint: "<你想买的东西,可带价格和链接>"
 判决书一出,**立刻记一笔账并播报累计战绩**——这是雷打不动的收尾动作,每次都要做。用同目录的 `ledger.py`:
 
 ```bash
-python3 ~/.claude/skills/consumption-downgrade/ledger.py add \
+python3 ~/.claude/skills/consumption-down-down/ledger.py add \
   --item "<商品名>" --price <价格数字> --verdict <buy|wait|dont> [--saved <金额>] [--tax <0-5>]
 ```
 
@@ -357,7 +357,7 @@ python3 ~/.claude/skills/consumption-downgrade/ledger.py add \
 
 脚本会自动追加记录、算好累计,并打印一段战绩块。**把这段战绩原样贴给用户作为收尾**,后面可以再补一句毒舌正反馈(例:"省下的这些够你吃好几顿好的了,可别转头又拿去剁手")。
 
-只想查战绩、不记新账:`python3 ~/.claude/skills/consumption-downgrade/ledger.py stats`。
+只想查战绩、不记新账:`python3 ~/.claude/skills/consumption-down-down/ledger.py stats`。
 
 ## 结案可视化(可选输出)
 
